@@ -1,0 +1,27 @@
+{
+  "name": "email-template",
+  "description": "Gulp based email workflow",
+  "version": "0.0.1",
+  "author": "Johnson Lin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ireade/gulp-email-workflow.git"
+  },
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "juice": "^4.1.1",
+    "postcss-scss": "^1.0.2"
+  },
+  "scripts": {
+    "start": "gulp"
+  }
+}

@@ -1,0 +1,46 @@
+@mixin mobileDevice {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@include mobileDevice {
+  .side-padding-2x {
+  }
+
+  .padded-content-container {
+    width: auto !important;
+  }
+
+  .logo {
+    width: 100% !important;
+    height: auto !important;
+
+    &-container {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+
+  .separator {
+    width: 100%;
+  }
+
+  .responsive-table {
+    td {
+      display: block !important;
+      width: 100% !important;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .side-padding {
+      height: 10px !important;
+      width: 100% !important;
+    }
+  }
+
+}

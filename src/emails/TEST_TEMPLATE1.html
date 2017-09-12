@@ -1,0 +1,69 @@
+{% extends "default-layout.html" %}
+
+<!-- Email Title -->
+{% set title = "Test" %}
+
+<!-- Email content Block -->
+{% block content %}
+<tr class="content">
+  <td>
+    <table class="content-container" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="vertical-padding-2x">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="side-padding-2x">&nbsp;</td>
+        <td class="padded-content-container">
+          <h1>Lorem ipsum dolor</h1><br />
+
+          <table class="content-container responsive-table">
+            <tr>
+              <td valign="top"><img src="http://via.placeholder.com/250x180?text=Thumbnail" alt="Thumbnail"></td>
+              <td class="side-padding">&nbsp;</td>
+              <td valign="top">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</em> Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.</p>
+              </td>
+            </tr>
+          </table><br />
+
+          <h2>Lorem ipsum dolor</h2><br />
+
+          <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua.</strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>consectetur adipiscing elit</li>
+          </ul>
+          <h3>Lorem ipsum dolor</h3>
+          <ol>
+            <li>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+            <li>Ut enim ad minim veniam</li>
+          </ol>
+          <h4>Lorem ipsum dolor</h4><br/>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+        </td>
+        <td class="side-padding-2x">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="vertical-padding-2x">&nbsp;</td>
+      </tr>
+    </table>
+  </td>
+</tr>
+{% endblock %}
+
+<!-- Email subContent Block -->
+{% block subContent %}
+{% endblock %}
