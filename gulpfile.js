@@ -107,10 +107,15 @@ gulp.task('watch', function() {
   gulp.watch(filesToWatch,['nunjucks', 'inlinecss']);
 });
 
+gulp.task('watch-dev', function() {
+  gulp.watch(filesToWatch,['nunjucks', 'inlinecss']);
+});
+
 
 /* *************
   DEFAULT
 ************* */
 
 gulp.task('default', ['connect', 'nunjucks', 'inlinecss', 'watch']);
+gulp.task('dev', ['connect', 'nunjucks', 'watch-dev']);
 
